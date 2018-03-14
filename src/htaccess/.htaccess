@@ -1,0 +1,7 @@
+<ifModule mod_headers.c>
+    <filesMatch "\.(x?html?|php)$">
+        Header set Cache-Control "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+        Header set Pragma "no-cache"
+    </filesMatch>
+</ifModule>
+ErrorDocument 404 /us/404.php

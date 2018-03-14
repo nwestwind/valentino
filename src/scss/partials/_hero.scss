@@ -1,0 +1,51 @@
+.hero { 
+  min-height: 215px;
+  background-color: $blue;
+  text-align: center;
+  color: $white;
+  padding: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  // for vertical and horizontal center
+  .inner-container {
+    margin: auto;
+  }
+  
+  .hero__content {
+    margin: auto;
+  }
+  &.about {
+    background-color: $dark-blue;
+  }
+  &.contact {    
+    background-color: $dark-blue;
+  }
+  &.media {
+    background-color: $dark-blue;
+  }
+  &.issues {
+    background-color: $dark-blue;
+  }
+  &.donate {
+    background-color: $dark-blue;
+  }
+  &.homepage {
+    min-height: 330px;
+    background: url(../img/banner.jpg) no-repeat left top;
+    background-size: cover; 
+
+    @media (min-width: $screen-sm) {
+      min-height: 315px;  
+    }
+    @media (min-width: $screen-md) {
+      min-height: 450px;  
+    }
+    @media (min-width: $screen-lg) {
+      min-height: 550px;  
+    }
+  }
+}

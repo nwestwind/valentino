@@ -1,0 +1,95 @@
+ ////
+/// Global Helpers
+/// @group Helpers
+/// @author Noah Westwind
+////
+
+.img-responsive {
+	max-width: 100%;
+}
+
+.sixteen-nine {
+	@include aspect-ratio(16, 9);
+}
+.four-three {
+	@include aspect-ratio(4, 3);
+}
+//
+// responsive 16:9 video container
+//
+.video-container {
+	background-color: $white;
+	padding: .75rem;
+	max-width: 90%;
+	margin: 0 auto;
+	box-shadow: 0 8px 15px -5px rgba($black, .75);
+	&.enlarged {
+		transform: scale(2);
+	}
+}
+.img-container {
+		background-color: $white;
+		padding: .75rem;
+		max-width: 100%;
+		margin: 0 auto;
+		box-shadow: 0 8px 15px -5px rgba($black, .75);
+		@include trailer(1);
+		&.sm {max-width: 50%;}
+		&.md {max-width: 75%;}
+		&.lg {max-width: 100%;}
+}
+.drop-shadow {
+	box-shadow: 0 10px 10px -5px rgba($black, .75);
+}
+// JavaScript responsive tags
+body::before {
+	content: "small";
+	display: none; // Prevent from displaying.
+	@media (min-width: $screen-xs) {
+		content: "x-small";
+	}
+	@media (min-width: $screen-sm) {
+		content: "small";
+	}
+	@media (min-width: $screen-md) {
+		content: "medium";
+	}
+	@media (min-width: $screen-lg) {
+		content: "large";
+	}
+}
+
+.light-blue {
+	background-color: $light-blue;
+}
+
+.align {
+	&-left {
+		float: left;
+		margin-right: 1em;
+	}
+	&-right {
+		float: right;
+		margin-left: 1em;
+	}
+	&-center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+.text-center {
+	text-align: center;
+}
+.text-left {
+	text-align: left;
+}
+.text-right {
+	text-align: right;
+}
+
+.heading {
+	&.light {
+		font-weight: $base-font-weight-light;
+	}
+}

@@ -1,0 +1,31 @@
+nav {  
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+	a { 
+ 
+		color: $black;
+		padding: 1em; 
+		font-weight: $base-font-weight;
+		-webkit-transition: all 250ms cubic-bezier(1, 1, 0, 1);
+			transition: all 250ms cubic-bezier(1, 1, 0, 1);
+		& + a {
+			margin-left: 0;
+		}
+		&.active {
+			background: $black;
+			color: $white;
+		}
+		&:hover {
+			background: rgba($black, .75);
+			color: $white;
+		}
+		&.donate-btn {
+			background: darkblue;
+			color: $white;
+		}
+	}
+	.scroll & {
+		color: $green;
+	}
+}

@@ -1,0 +1,8 @@
+.step-list {
+	.step {
+		padding: 0 0 2em 0;
+		& + .step {
+			@include leader(2);
+		}
+	}
+}

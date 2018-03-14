@@ -1,0 +1,7 @@
+.issue__list {
+	position: static;
+	@media (min-width: $screen-sm) {
+		position: sticky;
+		top: 90px;
+	}
+}

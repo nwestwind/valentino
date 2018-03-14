@@ -1,0 +1,393 @@
+////
+/// Global Variables
+/// @author Noah Westwind
+////
+
+$px-base: 16px !default;
+
+$row-spacing: 2em;
+$grid-columns: 12 !global;
+$medium-and-up: "only screen and (min-width:768px)";
+$large-and-up: "only screen and (min-width:1199px)";
+$gutter-width: 2%;
+$num-cols: 12;
+
+
+// Font styles
+// Configurable variables
+// ⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻
+
+// Absolute height of body text, in pixels
+$base-font-size: 16px !default;
+
+// Absolute height of one line of type, in pixels
+$base-line-height: 22px !default;
+
+// The font unit to use when returning values in rhythm functions
+$rhythm-font-unit: px !default;
+
+// Allows the `adjust-font-size-to` mixin and the `lines-for-font-size` function
+// to round the line height to the nearest half line height instead of the
+// nearest integral line height to avoid large spacing between lines.
+$round-to-nearest-half-line: true !default;
+
+// Ensure there is at least this many pixels
+// of vertical padding above and below the text.
+$min-line-padding: 2px !default;
+
+
+// Constants
+// ⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻
+
+// Most (all?) browsers use a default of 16px for type.
+$browser-default-font-size: 16px;
+
+// The height of one line of type, in rems.
+$rem-line-height: $base-line-height / $base-font-size * 1rem;
+
+
+/// @access public
+/// @author Noah Westwind
+/// @group Colors
+/// @example
+///   .text-color {
+///     color: $text-color;
+///   }
+///
+/// @example css - Output
+///   .text-color {
+///     color: #84888B;
+///   }
+$text-color: #84888B !default;
+
+
+/// @access public
+/// @author Noah Westwind
+/// @group Colors
+/// @example
+///   .blue {
+///     color: $blue;
+///   }
+///
+/// @example css - Output
+///   .blue {
+///     color: #006DB6;
+///   }
+$blue: #63ace5 !default;
+
+/// @access public
+/// @author Noah Westwind
+/// @group Colors
+/// @example
+///   .dark-blue {
+///     color: $dark-blue;
+///   }
+///
+/// @example css - Output
+///   .dark-blue {
+///     color: #00548B;
+///   }
+$dark-blue: #2a4d69 !default;
+
+/// @access public
+/// @author Noah Westwind
+/// @group Colors
+/// @example
+///   .light-blue {
+///     color: $light-blue;
+///   }
+///
+/// @example css - Output
+///   .light-blue {
+///     color: #40B4E5;
+///   }
+$light-blue: #adcbe3 !default;
+
+/// @access public
+/// @author Noah Westwind
+/// @group Colors
+/// @example
+///   .green {
+///     color: $green;
+///   }
+///
+/// @example css - Output
+///   .green {
+///     color: #77BC1F;
+///   }
+$green: #00CA44 !default;
+
+/// @access public
+/// @author Noah Westwind
+/// @group Colors
+/// @example
+///   .yellow {
+///     color: $orange;
+///   }
+///
+/// @example css - Output
+///   .yellow {
+///     color: #FFDB00;
+///   }
+$yellow: #ACB91A !default;
+
+/// @access public
+/// @author Noah Westwind
+/// @group Colors
+/// @example
+///   .orange {
+///     color: $orange;
+///   }
+///
+/// @example css - Output
+///   .orange {
+///     color: #F38B00;
+///   }
+$orange: #F38B00 !default;
+
+/// @access public
+/// @author Noah Westwind
+/// @group Colors
+/// @example
+///   .dark-orange {
+///     color: $red;
+///   }
+///
+/// @example css - Output
+///   .dark-orange {
+///     color: #FF671B;
+///   }
+$dark-orange: #FF671B !default;
+
+/// @access public
+/// @author Noah Westwind
+/// @group Colors
+/// @example
+///   .light-gray {
+///     color: $light-gray;
+///   }
+///
+/// @example css - Output
+///   .light-gray {
+///     color: #8B8B8B;
+///   }
+$gray: $text-color !default;
+
+/// @access public
+/// @author Noah Westwind
+/// @group Colors
+/// @example
+///   .light-gray {
+///     color: $text-color;
+///   }
+///
+/// @example css - Output
+///   .light-gray {
+///     color: #F1F1F1;
+///   }
+$light-gray: #F1F1F1 !default;
+
+/// @access public
+/// @author Noah Westwind
+/// @group Colors
+/// @example
+///   .dark-gray {
+///     color: $text-color;
+///   }
+///
+/// @example css - Output
+///   .dark-gray {
+///     color: #666666;
+///   }
+$dark-gray: #666666 !default;
+
+/// @access public
+/// @author Noah Westwind
+/// @group Colors
+/// @example
+///   .white {
+///     color: $white;
+///   }
+///
+/// @example css - Output
+///   .white {
+///     color: #FFFFFF;
+///   }
+$white: #F0F0F0 !default;
+
+/// @access public
+/// @author Noah Westwind
+/// @group Colors
+/// @example
+///   .black {
+///     color: $black;
+///   }
+///
+/// @example css - Output
+///   .black {
+///     color: #1F242B;
+///   }
+$black: #343635 !default;
+
+/// @access public
+/// @author Noah Westwind
+/// @group Screen sizes
+/// @example
+///   @media (min-width: $screen-xs) {
+///
+///   }
+///
+/// @example css - Output
+///   @media (min-width: 320px) {
+///
+///   }
+$screen-xs: 320px !default;
+
+/// @access public
+/// @author Noah Westwind
+/// @group Screen sizes
+/// @example
+///   @media (min-width: $screen-sm) {
+///
+///   }
+///
+/// @example css - Output
+///   @media (min-width: 480px) {
+///
+///   }
+$screen-sm: 768px !default;
+
+/// @access public
+/// @author Noah Westwind
+/// @group Screen sizes
+/// @example
+///   @media (min-width: $screen-md) {
+///
+///   }
+///
+/// @example css - Output
+///   @media (min-width: 767px) {
+///
+///   }
+$screen-md: 992px !default;
+
+/// @access public
+/// @author Noah Westwind
+/// @group Screen sizes
+/// @example
+///   @media (min-width: $screen-lg) {
+///
+///   }
+///
+/// @example css - Output
+///   @media (min-width: 1024px) {
+///
+///   }
+$screen-lg: 1200px !default;
+
+/// @access public
+/// @author Noah Westwind
+/// @group Screen sizes
+/// @example
+///   @media (min-width: $screen-xl) {
+///
+///   }
+///
+/// @example css - Output
+///   @media (min-width: 1224px) {
+///
+///   }
+$screen-xl: 1224px !default;
+
+/// @access public
+/// @author Noah Westwind
+/// @group Screen sizes
+/// @example
+///   @media (min-width: $screen-xxl) {
+///
+///   }
+///
+/// @example css - Output
+///   @media (min-width: 1824px) {
+///
+///   }
+$screen-xxl: 1824px !default;
+
+/// @group Font
+/// @example scss - Font family
+///   .sans-serif {
+///     font-family: $base-font-family;
+///   }
+/// @example css - Font output
+///   .sans-serif {
+///     font-family: 'Clan', 'Helvetica Neue Light', 'Helvetica Neue', 'Arial', sans-serif;
+///
+$sans-serif-font: 'Open Sans', Arial, 'Helvetica', 'Helvetica Neue', sans-serif !default;
+
+
+/// @group Font
+/// @example scss - Font family
+///   .sans-serif {
+///     font-family: $code-font-family;
+///   }
+/// @example css - Font output
+///   .sans-serif {
+///     font-family: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace;
+///   }
+$code-font: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+
+/// @group Font
+/// @example scss - Font weight
+///   .weight-300 {
+///     font-weight: $base-font-weight-light;
+///   }
+/// @example css - Font output
+///   .weight-300 {
+///     font-weight:300;
+///   }
+$base-font-weight-light: 300 !default;
+
+/// @group Font
+/// @example scss - Font weight
+///   .weight-400 {
+///     font-weight: $base-font-weight;
+///   }
+/// @example css - Font output
+///   .weight-400 {
+///     font-weight:400;
+///   }
+$base-font-weight: 400 !default;
+
+/// @group Font
+/// @example scss - Font weight
+///   .weight-600 {
+///     font-weight: $base-font-weight-semi-bold;
+///   }
+/// @example css - Font output
+///   .weight-600 {
+///     font-weight:600;
+///   }
+$base-font-weight-semi-bold: 600 !default;
+
+/// @group Font
+/// @example scss - Font weight
+///   .weight-700 {
+///     font-weight: $base-font-weight-bold;
+///   }
+/// @example css - Font output
+///   .weight-700 {
+///     font-weight:700;
+///   }
+$base-font-weight-bold: 700 !default;
+
+/// @group Font
+/// @example scss - Font weight
+///   .weight-800 {
+///     font-weight: $base-font-weight-extra-bold;
+///   }
+/// @example css - Font output
+///   .weight-800 {
+///     font-weight:800;
+///   }
+$base-font-weight-extra-bold: 800 !default;

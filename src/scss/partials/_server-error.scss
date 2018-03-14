@@ -1,0 +1,26 @@
+#server-403,
+#server-404 {
+	margin: 57px 0 0 0;
+	@media screen and (min-width: $screen-md) {
+		margin: 90px 0 0 0;
+	}
+	header {
+		background-color: $dark-blue;
+	}
+	footer .social a {
+		opacity: .75;
+		filter: alpha(opacity=75);
+		-moz-transform: translate3d(0, 0, 0);
+		-ms-transform: translate3d(0, 0, 0);
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+		transition: opacity 250ms ease;
+		-moz-transition: opacity 250ms ease;
+		-webkit-transition: opacity 250ms ease;
+		&:hover {
+			opacity: 1;
+			filter: alpha(opacity=100);
+		}
+	}
+}
+

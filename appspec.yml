@@ -1,0 +1,10 @@
+version: 0.0
+os: linux
+files:
+  - source: dist
+    destination: /data/valentino4gov
+permissions:
+  - object: /data/valentino4gov
+    pattern: "**"
+    owner: valentino4gov
+    group: valentino4gov

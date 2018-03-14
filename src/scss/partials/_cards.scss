@@ -1,0 +1,15 @@
+.cards {
+	transition: all 250ms ease;
+	.donation {
+		width: 100%;
+		background-color: $blue;
+		color: $white;
+		display: block;
+		padding: 3em;
+		border-bottom: 1px solid $light-blue;
+		transition: all 250ms ease;
+		&:hover {
+			background-color: $blue;
+		}
+	}
+}
