@@ -104,10 +104,10 @@ a {
   }
   // named achors on issue page
   &.named-anchor {
-    top: -90px;
+    top: -89px;
     position: relative;
     height: 0;
-    display: inline;
+    display: table;
   }
 }
 

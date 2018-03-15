@@ -38,7 +38,7 @@
 				<div class="col s12 m8"> 
 					<p>From the very beginning of our relatively short history as a nation, The United States has always had to be watchful for people and groups who have wanted to take down America and to diminish her power. Today is no different from the past. The threat to our nation has only changed its shape and name.</p>
 					<hr>
-					<a id="united_nations"></a>
+					<a id="united_nations" class="named-anchor"></a>
 					<h3>Remove the United Nations</h3>
 					<p>The political entity that now endangers the sovereignty and security of the United States above any other, is the United Nations. That may seem shocking for someone to say. But if it is shocking to you, it is only because you don't know what I know, and you have not seen what I've seen. Right now, the most important thing every American can do is to learn about the United Nations book, Agenda 21. We must take them at their word, for in these 350 pages they delineate with exactitude how they plan to completely destroy America as we know it.</p>
 
