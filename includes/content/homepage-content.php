@@ -11,7 +11,7 @@
 
 				This document should be signed by all present, in order to bind our collective covenant to remove all un-American UN Agenda 21 policies from California Government.
 				-->
-
+				<h2>The California Declaration</h2>
 				<p>Be it known before all, that we the undersigned, Citizens of the Republic of California, do hereby officially opt out of all UN Agenda 21 protocols and policies. We have become aware of these specific policies in our state and local jurisdictions because of the fact of their unconstitutionality and due to their increasing abridgment of our Rights as U.S. Citizens. We do not consent to any rule or system that comes from beyond our borders or that in any way reduces our rights as Americans.</p>
 
 				<p>We hereby decree that California will again adhere to our State and Federal Constitutions and that we will return to living in accordance with their protections.</p>
@@ -24,16 +24,19 @@
 				for we will not tolerate one more attack of any kind. Those behind these attacks will be criminally charged by the People of the State, and punished in Accordance with Law.</p>
 
 				<p>This covenant we swear with one another, and pledge to uphold with all the power of our Lives.</p>
-
 			</div>
 			<div class="col s12 m4">
-				<h2>Issues</h2>
+				<h4>Peter's Goals and Platform</h4>
 				<ul class="issue__list">
+					<li class="issue">Remove the United Nations</li>
 					<li class="issue">Education</li>
-					<li class="issue">Economy</li>
-					<li class="issue">Anti-Geoengineering</li>  
-					<li class="issue">Anti-vax</li>
-					<li class="issue">Anti-GMO</li>
+					<li class="issue">Vaccinations</li>  
+					<li class="issue">Homelessness and Poverty</li>
+					<li class="issue">Weather Modification</li>
+					<li class="issue">UN Depopulation Plan</li>
+					<li class="issue">Banning GMO's</li>
+					<li class="issue">Our Senior Citizens</li>
+					<li class="issue">Economic Development</li>
 				</ul>				
 			</div>
 		</div>

@@ -4,7 +4,7 @@
 		<div class="row">
 			<div class="col s12">
 				<h2 class="heading">Be Part of the Team</h2>
-				<p>With just a few simple steps, you can help us amplify our message of restoring the luster of the California Dream to even more people across our state.</p>
+				<p>With just a few simple steps, you can help us amplify our message of restoring California to even more people across our state.</p>
 
 				<p>Here’s how you can help Peter’s campaign to give voice to all Californians:</p>
 

@@ -29,8 +29,8 @@
     <footer>
     <div class="inner-container">
       <div class="social">
-        <a href="#" target="_blank" id="facebook">Facebook</a>
-        <a href="#" target="_blank" id="youtube">YouTube</a>
+        <a href="https://www.facebook.com/ptrvalentino" target="_blank" id="facebook">Facebook</a>
+        <a href="https://www.youtube.com/channel/UCUok8kVv_fDXvV1B-d6oVAA" target="_blank" id="youtube">YouTube</a>
       </div>
         <p class="copyright">&copy;<?php echo date("Y");?> Valentino4Gov - All Rights Reserved</p>
         <div class="footer-links"><a href="privacy.php">Privacy</a></div>

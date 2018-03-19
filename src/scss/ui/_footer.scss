@@ -2,7 +2,7 @@ footer {
   display: block;
   text-align: center;
   background-color: $black;
-  height: 400px; 
+  height: $footer-height; 
   padding: 3em 0;
   color: $white;
   z-index: 9999;
