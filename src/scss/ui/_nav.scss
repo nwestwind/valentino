@@ -1,28 +1,28 @@
 nav {  
-	display: flex;
-    justify-content: space-between;
-    align-items: center;
-	a { 
- 
+   	// margin: auto;
+    order: 3;
+	a {
 		color: $black;
-		padding: 1em; 
+		padding: .35em 1em; 
 		font-weight: $base-font-weight;
-		-webkit-transition: all 250ms cubic-bezier(1, 1, 0, 1);
-			transition: all 250ms cubic-bezier(1, 1, 0, 1);
+		transition: all 250ms cubic-bezier(1, 1, 0, 1);
 		& + a {
 			margin-left: 0;
 		}
 		&.active {
-			background: $black;
+			background: $dark-blue;
 			color: $white;
 		}
 		&:hover {
-			background: rgba($black, .75);
+			background: rgba($dark-blue, .75);
 			color: $white;
 		}
 		&.donate-btn {
 			background: $green;
 			color: $white;
+			&:hover {
+				background: rgba($dark-green, .95);
+			}
 		}
 	}
 	.scroll & {

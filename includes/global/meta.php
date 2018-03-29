@@ -11,19 +11,19 @@
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Peter Valentino for Governor" />
-    <meta property="og:description" content="" />    
-    <meta property="og:url" content="http://www.valentino4gov.org" />
-    <meta property="og:site_name" content="" />
-    <meta property="og:image" content="http://www.valentino4gov.org" />
+    <meta property="og:description" content="A California native, Peter has a vision for a better California. The answer to the problems which beset us is to get back to the traditions and practices we threw away in our quest for modernity. " />    
+    <meta property="og:url" content="https://www.valentino4gov.org" />
+    <meta property="og:site_name" content="A California native, Peter has a vision for a better California. The answer to the problems which beset us is to get back to the traditions and practices we threw away in our quest for modernity. " />
+    <meta property="og:image" content="https://www.valentino4gov.org" />
     
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@valentino4gov" />
     <meta name="twitter:title" content="Peter Valentino for Governor" />
-    <meta name="twitter:image" content="http://www.valentino4gov.org/img/og-image.jpg" />
-    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="https://www.valentino4gov.org/img/og-image.jpg" />
+    <meta name="twitter:description" content="A California native, Peter has a vision for a better California. The answer to the problems which beset us is to get back to the traditions and practices we threw away in our quest for modernity. " />
     
-    <meta name="description" content="" />
+    <meta name="description" content="A California native, Peter has a vision for a better California. The answer to the problems which beset us is to get back to the traditions and practices we threw away in our quest for modernity. " />
     
-    <link rel="canonical" href="http://www.valentino4gov.org/" />
+    <link rel="canonical" href="https://www.valentino4gov.org/" />
 
-    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="shortcut icon" href="https://www.valentino4gov.org/img/favicon.png" />

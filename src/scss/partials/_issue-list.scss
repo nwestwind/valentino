@@ -1,7 +1,19 @@
 .issue__list {
-	position: static;
+	list-style: none;
+	position: static; 
+	padding: 1em 0;
+	margin: 0;
 	@media (min-width: $screen-sm) {
 		position: sticky;
-		top: 90px;
+		top: 80px;
+	}
+	.heading {
+		border-bottom: 1px solid $dark-blue;
+	}
+	a {
+		transition: color 250ms ease;
+		&:hover {
+			color: rgba($dark-blue, .95);
+		}
 	}
 }

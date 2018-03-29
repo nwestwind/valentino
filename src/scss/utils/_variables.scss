@@ -2,7 +2,7 @@
 /// Global Variables
 /// @author Noah Westwind
 ////
-$footer-height: 300px !default;
+$footer-height: 455px !default;
 
 $px-base: 16px !default;
 
@@ -114,9 +114,23 @@ $light-blue: #adcbe3 !default;
 ///
 /// @example css - Output
 ///   .green {
-///     color: #77BC1F;
+///     color: #00CA44;
 ///   }
 $green: #00CA44 !default;
+
+/// @access public
+/// @author Noah Westwind
+/// @group Colors
+/// @example
+///   .dark-green {
+///     color: $dark-green;
+///   }
+///
+/// @example css - Output
+///   .dark-green {
+///     color: #008C2F;
+///   }
+$dark-green: #008C2F !default;
 
 /// @access public
 /// @author Noah Westwind

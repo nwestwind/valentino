@@ -1,6 +1,8 @@
 .step-list {
+	@include clearfix();
 	.step {
-		padding: 0 0 2em 0;
+		@include clearfix();
+		padding: 0 0 1em 0;
 		& + .step {
 			@include leader(2);
 		}

@@ -5,9 +5,9 @@ section {
   &.video {
     padding: 6em 0;
   }
-  a {
-    color: currentColor;
-  }
+  // a {
+  //   color: currentColor;
+  // }
 
   hr {
     border: 1px solid currentColor;
@@ -37,6 +37,10 @@ section {
     color: $white;
   }
   &.gray {
+    background-color: $gray;
+    color: $black;
+  }  
+  &.light-gray {
     background-color: $light-gray;
     color: $black;
   }  

@@ -1,15 +1,38 @@
 .cards {
 	transition: all 250ms ease;
-	.donation {
-		width: 100%;
+
+	.donation {		
 		background-color: $blue;
 		color: $white;
 		display: block;
-		padding: 3em;
+		width: 100%;
 		border-bottom: 1px solid $light-blue;
 		transition: all 250ms ease;
+		padding: 2em;
+		color: $white;
+		cursor: pointer;
+		position: relative;
 		&:hover {
-			background-color: $blue;
+			background-color: $dark-blue;
+		}
+		.paypal-btn {
+			width: 100%;
+			height: 100%;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			cursor: pointer;
+			position: absolute;
+			display: block;
+			vertical-align: middle;
+			background-color: transparent !important;			
+			border: 0  none transparent;
+			color: currentColor;
+			@include set-font-size(14px, 1);
+			@media (min-width: $screen-sm) {
+				@include set-font-size(20px, 1.25);
+			} 
 		}
 	}
 }

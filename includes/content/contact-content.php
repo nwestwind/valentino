@@ -4,75 +4,186 @@
 		<div class="row">
 			<div class="col s12">
 				<h2 class="heading">Be Part of the Team</h2>
-				<p>With just a few simple steps, you can help us amplify our message of restoring California to even more people across our state.</p>
+				<p>With just a few simple steps, you can help us spread our message of restoring California to even more people across our State.</p>
 
-				<p>Here’s how you can help Peter’s campaign to give voice to all Californians:</p>
+				<p>How can you help Peter’s campaign? Follow these steps below:</p>
 
 				<ol class="step-list">
-					<li class="step"><strong>Follow Us On Social Media</strong><br>It's the best way to stay up to date with news from the campaign.</li>
+					<li class="step">
+						<strong>Follow Us On Social Media</strong><br>It's the best way to stay up to date with news from the campaign.
+						<br>
+						<a href="https://www.facebook.com/groups/1138316679638853/" target="_blank" rel="external">Valentino For Gov - CA</a> on Facebook
+						<br>
+       					<a href="https://www.youtube.com/channel/UCUok8kVv_fDXvV1B-d6oVAA" target="_blank" rel="external">PAPAMUNDI</a> on YouTube
+					</li>
 
-					<li class="step"><strong>Invite 10 Friends to Like Our Facebook Page</strong><br>Here's how:<br>
+					<li class="step"><strong>Invite Friends to Like Our Facebook Page</strong><br>Here's how:<br>
 						<ul>
-							<li><strong>Step 1:</strong> Go to Peter’s Facebook Page</li>
+							<li><strong>Step 1:</strong> Go to <a href="https://www.facebook.com/groups/1138316679638853/" target="_blank" rel="external">Valentino For Gov - CA</a> Facebook Page</li>
 							<li><strong>Step 2:</strong> Scroll down and click on the “Invite your friends to like this page” link in the “Community” section on the right side.</li>
-							<li><strong>Step 3:</strong> Invite the 10 friends you think would be most interested to join our campaign.</li>
-						</ul>
+							<li><strong>Step 3:</strong> Invite friends you think would be most interested in joining our campaign.</li>
+						</ul>						
 					</li>
-
-					<li class="step"><strong>Share Your Voice</strong><br>Our campaign is organized around a powerful goal: to give voice to every Californian.</li>
-					<li class="step"><strong>Sign Up to Become a Donor</strong><br>This campaign is about bringing people together to move our state forward and make sure no one is left behind. We’re going to need the resources to spread that message across California. Every dollar counts, and we are grateful for any support you can provide.</li>
-					<li class="step"><strong>Invite Your Friends to Donate</strong><br>You can help raise money for Peter's campaign by setting up your own personalized Peter Valentino for Governor donation page.<br>
-						<ul>
-							<li><strong>Step 1:</strong> Start an Individual Direct Fundraising campaign on Crowdpac.</li>
-							<li><strong>Step 2:</strong> Login or create an account</li>
-							<li><strong>Step 3:</strong> Search for and select “Peter Valentino”</li>
-							<li><strong>Step 4:</strong> Here you can add a picture and story about why you are asking your community to give to Peter’s campaign.</li>
-						</ul>
+					<li class="step">
+						<strong>Volunteer</strong><br>We need your help to staff up this campaign and continue this great momentum.
+						<br>
+						<br>
+						<a href="mailto:ptrvalentino@gmail.com?subject=I would like to Volunteer" class="donate-btn">I can help volunteer!</a>
 					</li>
+					<li class="step">
+						<strong>Become a Donor!</strong><br>Every dollar counts, and we are grateful for any support you can provide. This campaign is about bringing people together to bring California back to it's Constitutional foundation. We’re going to need every resource to spread that message across California. 
+							<br>
+							<br>
+							<h4>Donate with PayPal</h4>
 
-					<li class="step"><strong>Sign Up to Volunteer</strong><br>We need your help to staff up this campaign and continue this great momentum.</li>
+						<div class="cards col s12 m2">
+							
+							<form class="card donation" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+							    <!-- Identify your business so that you can collect the payments. -->
+							    <input type="hidden" name="business" value="ptrvalentino@gmail.com">
+
+							    <!-- Specify a Donate button. -->
+							    <input type="hidden" name="cmd" value="_donations">
+
+							    <!-- Specify details about the contribution -->
+							    <input type="hidden" name="item_name" value="Valentino4Gov-$5">
+							    <input type="hidden" name="item_number" value="Peter Valentino for Governor Campaign">
+							    <input type="hidden" name="amount" value="5.00">
+							    <input type="hidden" name="currency_code" value="USD">
+
+							    <!-- Display the payment button. -->
+							    <button type="image" class="paypal-btn" name="submit" value="$5.00" alt="Donate $5.00">Donate $5.00</button>
+
+							    <img alt="" width="1" height="1"
+							    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+							</form>
+						</div>
+						<div class="cards col s12 m2">
+							<form class="card donation" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+							    <!-- Identify your business so that you can collect the payments. -->
+							    <input type="hidden" name="business" value="ptrvalentino@gmail.com">
+
+							    <!-- Specify a Donate button. -->
+							    <input type="hidden" name="cmd" value="_donations">
+
+							    <!-- Specify details about the contribution -->
+							    <input type="hidden" name="item_name" value="Valentino4Gov-$15">
+							    <input type="hidden" name="item_number" value="Peter Valentino for Governor Campaign">
+							    <input type="hidden" name="amount" value="15.00">
+							    <input type="hidden" name="currency_code" value="USD">
+
+							    <!-- Display the payment button. -->
+							    <button type="image" class="paypal-btn" name="submit" value="$15.00" alt="Donate $15.00">Donate $15.00</button>
+
+							    <img alt="" width="1" height="1"
+							    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+							</form>
+						</div>
+						<div class="cards col s12 m2">
+							<form class="card donation" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+							    <!-- Identify your business so that you can collect the payments. -->
+							    <input type="hidden" name="business" value="ptrvalentino@gmail.com">
+
+							    <!-- Specify a Donate button. -->
+							    <input type="hidden" name="cmd" value="_donations">
+
+							    <!-- Specify details about the contribution -->
+							    <input type="hidden" name="item_name" value="Valentino4Gov-$25">
+							    <input type="hidden" name="item_number" value="Peter Valentino for Governor Campaign">
+							    <input type="hidden" name="amount" value="25.00">
+							    <input type="hidden" name="currency_code" value="USD">
+
+							    <!-- Display the payment button. -->
+							    <button type="image" class="paypal-btn" name="submit" value="$25.00" alt="Donate $15.00">Donate $25.00</button>
+
+							    <img alt="" width="1" height="1"
+							    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+							</form>	
+							</div>
+						<div class="cards col s12 m2">
+							<form class="card donation" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+							    <!-- Identify your business so that you can collect the payments. -->
+							    <input type="hidden" name="business" value="ptrvalentino@gmail.com">
+
+							    <!-- Specify a Donate button. -->
+							    <input type="hidden" name="cmd" value="_donations">
+
+							    <!-- Specify details about the contribution -->
+							    <input type="hidden" name="item_name" value="Valentino4Gov-$50">
+							    <input type="hidden" name="item_number" value="Peter Valentino for Governor Campaign">
+							    <input type="hidden" name="amount" value="50.00">
+							    <input type="hidden" name="currency_code" value="USD">
+
+							    <!-- Display the payment button. -->
+							    <button type="image" class="paypal-btn" name="submit" value="$25.00" alt="Donate $50.00">Donate $50.00</button>
+
+							    <img alt="" width="1" height="1"
+							    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+							</form>	
+						</div>
+						<div class="cards col s12 m2">
+							<form class="card donation" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+							    <!-- Identify your business so that you can collect the payments. -->
+							    <input type="hidden" name="business" value="ptrvalentino@gmail.com">
+
+							    <!-- Specify a Donate button. -->
+							    <input type="hidden" name="cmd" value="_donations">
+
+							    <!-- Specify details about the contribution -->
+							    <input type="hidden" name="item_name" value="Valentino4Gov-$200">
+							    <input type="hidden" name="item_number" value="Peter Valentino for Governor Campaign">
+							    <input type="hidden" name="amount" value="200.00">
+							    <input type="hidden" name="currency_code" value="USD">
+
+							    <!-- Display the payment button. -->
+							    <button type="image" class="paypal-btn" name="submit" value="$200.00" alt="Donate $200.00">Donate $200.00</button>
+
+							    <img alt="" width="1" height="1"
+							    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+							</form>	
+						</div>
+						<div class="cards col s12 m2">	
+							<form class="card donation" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+							    <!-- Identify your business so that you can collect the payments. -->
+							    <input type="hidden" name="business" value="ptrvalentino@gmail.com">
+
+							    <!-- Specify a Donate button. -->
+							    <input type="hidden" name="cmd" value="_donations">
+
+							    <!-- Specify details about the contribution -->
+							    <input type="hidden" name="item_name" value="Valentino4Gov-Custom Amount">
+							    <input type="hidden" name="item_number" value="Peter Valentino for Governor Campaign">
+							    <input type="hidden" name="amount" value="">
+							    <input type="hidden" name="currency_code" value="USD">
+
+							    <!-- Display the payment button. -->
+							    <button type="image" class="paypal-btn" name="submit" value="" alt="Donate $50.00">Donate Custom Amount</button>
+
+							    <img alt="" width="1" height="1"
+							    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+							</form>	
+						</div>
+					</li>
+					<li class="step">
+						<strong>Share Your Voice</strong><br>Peter's campaign goal: California will again adhere to our State and Federal Constitutions and that we will return to living in accordance with their protections.
+					</li>
 				</ol>
-			</div>
-
-		</div>
-		<div class="row">
-			<div class="col s12 m6">				
-				<h4 class="heading"><i class="fa fa-link" aria-hidden="true"></i> External Links</h4>
-				<hr>
-				<ul>
-					<li><i class="fa fa-external-link" aria-hidden="true"></i>&nbsp;&nbsp;<a href="http://www.skywatchmap.org/" target="_blank">SkyWatchMap.org</a></li>
-				</ul> 
-			</div>
-			<div class="col s12 m6">
-				 
-				<h4>Activist's Assets</h4>
-				<hr>
-				<ul>
-					<li>
-					<a href="http://www.frankenskiesthemovie.com/docs/chemtrails-accidental-geoengineering-ice-haze.pdf" target="_blank" download>Download Flyers</a>
-					</li>
-				</ul>
-<!-- 
-				<h4 class="heading"><i class="fa fa-comment-o" aria-hidden="true"></i> What others are saying</h4>
-				<hr>
-				<ul class="quotes">					
-					<li>In a time of deceit, <strong>telling the truth</strong> is a revolutionary act."<br>&ndash; George Orwell</li>
-					<li>You know what your problem is, it's that you haven't seen enough movies - all of <strong>life's riddles are answered</strong> in the movies."<br>&ndash; Steve Martin</li>
-					<li>It's <strong>funny</strong> how the <strong>colors of the real world</strong> only seem really real when you watch them on a screen."<br>&ndash; Anthony Burgess, A Clockwork Orange</li>
-					<li>Every <strong>great film</strong> should seem new every time you see it."<br>&ndash; Roger Ebert</li>
-					<li>Without writers, stories would not be written,
-Without actors, stories could not be <strong>brought to life</strong>."<br>&ndash; Angie-Marie Delsante</li>
-				</ul> -->
 			</div>
 		</div>
 	</div>
 </section>
-
-<section class="gray">
+<!-- 
+<section class="light-gray">
 	<a id="events" class="anchor"></a>
 	<div class="inner-container">
 		<div class="intro">
-			<!-- <i class="fa fa-map" aria-hidden="true"></i> -->
+			<i class="fa fa-map" aria-hidden="true"></i>
 			<h3 class="heading">Locations</h3>
 		</div>
 		<div class="row">
@@ -94,4 +205,4 @@ Without actors, stories could not be <strong>brought to life</strong>."<br>&ndas
 		</div>
 	</div>
 </section>
-
+ -->

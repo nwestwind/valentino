@@ -112,45 +112,45 @@ fs.skies.scroll = {
 						//console.log('scroll');
 						if(fs.skies.setup.state.win.width() >= 992) {
 			 
-						if($(document).scrollTop() > 0) {
-							fs.skies.setup.state.header.addClass('scroll');
-							fs.skies.setup.state.body.addClass('scroll');
+							if($(document).scrollTop() > 0) {
+								fs.skies.setup.state.header.addClass('scroll');
+								fs.skies.setup.state.body.addClass('scroll');
 
-						} else {
-							fs.skies.setup.state.header.removeClass('scroll');
-							fs.skies.setup.state.body.removeClass('scroll');
-							$('.more-scroll').removeClass('scrolled');
-						}
+							} else {
+								fs.skies.setup.state.header.removeClass('scroll');
+								fs.skies.setup.state.body.removeClass('scroll');
+								$('.more-scroll').removeClass('scrolled');
+							}
 								
 						}
 						// Get container scroll position
-					var fromTop = $(this).scrollTop() + topMenuHeight;
+					// var fromTop = $(this).scrollTop() + topMenuHeight;
 
 					 // Get id of current scroll item
-					var cur = scrollItems.map(function(){
-											if ($(this).offset().top < fromTop){
-													return this;
-											}
-									});
+					// var cur = scrollItems.map(function(){
+					// 						if ($(this).offset().top < fromTop){
+					// 								return this;
+					// 						}
+					// 				});
 					 // Get the id of the current element
 
-									if(fromTop + $(this).height() > $(document).height()) {
-											cur = $('footer');
-									} else {
-											cur = cur[cur.length-1];
-									}
-									var id = cur && cur.length ? cur[0].id : "";
+									// if(fromTop + $(this).height() > $(document).height()) {
+									// 		cur = $('footer');
+									// } else {
+									// 		cur = cur[cur.length-1];
+									// }
+									// var id = cur && cur.length ? cur[0].id : "";
 
 					// console.log();
 
-					if (lastId !== id) {
-						lastId = id;
-						// window.location.hash = lastId;
-						// console.log( match);
+					// if (lastId !== id) {
+					// 	lastId = id;
+					// 	window.location.hash = lastId;
+					// 	console.log( match);
 
-						// Set/remove active class
-						menuItems.removeClass("active").filter("[href='#"+id+"']").addClass("active");					
-					}
+					// 	Set/remove active class
+					// 	menuItems.removeClass("active").filter("[href='#"+id+"']").addClass("active");					
+					// }
 				});
 			// Bind click handler to menu items
 			// so we can get a fancy scroll animation

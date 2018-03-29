@@ -1,9 +1,4 @@
 header {
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
   user-select: none;
   background: $white; 
   position: relative;
@@ -46,10 +41,10 @@ header {
       }
     }
 	}
-  #logo {
-    display: block;
+  #logo {  
     flex-grow: 1;
     flex-basis: auto;
+    max-width: 105px;
     > img {
       height: 100px;
       display: block;

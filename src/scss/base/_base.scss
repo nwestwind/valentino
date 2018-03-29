@@ -1,7 +1,5 @@
 * {
 	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
 }
 
 html,
@@ -18,20 +16,18 @@ body {
   padding: 0;
   margin: 0;
   border: 0 none transparent;
-  background-color: #E8E8E8;
-  background-image: url(../img/bg_fabric.png);
-  font-family: 'Source Sans Pro';
+  background: #E8E8E8 url(../img/bg_fabric.png) repeat 0 0;
+  font-family: 'Source Sans Pro', Arial, 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: $base-font-weight;
   color: $text-color;
   overflow-x: hidden;
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
+  // font-smoothing: subpixel-rendering;
   @include stack-spacing();
   @include set-font-size(14px, 1);
   @media (min-width: $screen-sm) {
     @include set-font-size(20px, 1.25);
   } 
-  &.scroll {}
+  &.scroll {margin-top: 50px;}
 }
 
 // sticky footer
@@ -76,10 +72,21 @@ p {
 }
 
 a {
-  color: currentColor;
+  color: $blue;
   font-weight: $base-font-weight-bold;
 	outline-style: none;
   text-decoration: none;
+  transition: color 250ms ease;
+  &.donate-btn {
+    border-radius: 10px;
+    background: $green;
+    padding: .25em 1em;
+    color: $white;
+    &:hover {
+      color: $white;
+      background: $dark-green;
+    }
+  }
 	img {
 		display: block;
 		border: 0 none transparent;
@@ -100,11 +107,12 @@ a {
     // }
   }
   &:hover {
+    color: $dark-blue;
     text-decoration: none;
   }
   // named achors on issue page
   &.named-anchor {
-    top: -89px;
+    top: -80px;
     position: relative;
     height: 0;
     display: table;
@@ -112,7 +120,7 @@ a {
 }
 
 ul {
-  list-style: none;
+  // list-style: none;
   padding-left: 1em;
   @include trailer(1); 
   li { 
@@ -123,6 +131,7 @@ ul {
     }
   }
   &.quotes {
+    list-style: none;
     li {
       @include padding-leader(1);
       @include padding-trailer(1);
@@ -148,15 +157,7 @@ ul {
   z-index: 9999;
   @include clearfix();
 }
-  .parallaxParent {
-    height: 100vh;
-    overflow: hidden;
-  }
-  .parallaxParent > * {
-    height: 200%;
-    position: relative;
-    top: -100%;
-  }
+
 .inner-container {
   margin: 0 auto;
   position: relative;

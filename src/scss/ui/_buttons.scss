@@ -131,7 +131,7 @@
     padding-right: 40px;
     &::after {
       content: '';
-      background-image: url('../img/icon-external-link.svg');
+      //background-image: url('../img/icon-external-link.svg');
       height: 10px;
       width: 10px;
       display: block;
@@ -153,20 +153,12 @@
   max-width: 350px;
   position:relative;
 	&::after{
-    -moz-transform: translate(-50%, -50%);
-    -moz-transition: opacity 250ms ease;
-    -ms-transform: translate(-50%, -50%);
-    -ms-transition: opacity 250ms ease;
-    -webkit-transform: translate(-50%, -50%);
-    -webkit-transition: opacity 250ms ease;
-    content: url('../img/play-btn.svg');
     filter: opacity(75);
     height: 60px;
     left: 50%;
     opacity: .75;
     position: absolute;
     top: 50%;
-    transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     transition: opacity 250ms ease;
     width: 60px;

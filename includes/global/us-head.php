@@ -3,7 +3,7 @@ include "/global/functions.php"
 <html class="no-js" lang="en">
 	<head>
 
-    <title>Peter Valentino for Governor</title>
+    <title>Peter Valentino for California Governor | Valentino4Gov.org</title>
    
 	include "/global/meta.php"
 
@@ -15,5 +15,5 @@ include "/global/functions.php"
   <body id="<?php echo $page_id; ?>">
 
     <div class="outer-container">
-      <div class="page-wrap">
+      <div class="page-wrap" role="main">
         include "/global/header-nav.php"
