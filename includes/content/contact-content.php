@@ -3,21 +3,27 @@
 	<div class="inner-container">
 		<div class="row">
 			<div class="col s12">
-				<h2 class="heading">Be Part of the Team</h2>
+				<h2 class="heading">Be Part of Peter's Team</h2>
 				<p>With just a few simple steps, you can help us spread our message of restoring California to even more people across our State.</p>
 
 				<p>How can you help Peter’s campaign? Follow these steps below:</p>
 
 				<ol class="step-list">
 					<li class="step">
-						<strong>Follow Us On Social Media</strong><br>It's the best way to stay up to date with news from the campaign.
-						<br>
+						<strong>Follow Us On Social Media</strong>
+						<br><br>
+						It's the best way to stay up to date with news from the campaign.
+						<br><br>
 						<a href="https://www.facebook.com/groups/1138316679638853/" target="_blank" rel="external">Valentino For Gov - CA</a> on Facebook
 						<br>
-       					<a href="https://www.youtube.com/channel/UCUok8kVv_fDXvV1B-d6oVAA" target="_blank" rel="external">PAPAMUNDI</a> on YouTube
+       					<a href="https://www.youtube.com/user/papamunditruth/" target="_blank" rel="external">PAPAMUNDI</a> on YouTube <a href="">Subscribe</a>
 					</li>
 
-					<li class="step"><strong>Invite Friends to Like Our Facebook Page</strong><br>Here's how:<br>
+					<li class="step">
+						<strong>Invite Friends to Like Our Facebook Page</strong>
+						<br><br>
+						Here's how:
+						<br><br>
 						<ul>
 							<li><strong>Step 1:</strong> Go to <a href="https://www.facebook.com/groups/1138316679638853/" target="_blank" rel="external">Valentino For Gov - CA</a> Facebook Page</li>
 							<li><strong>Step 2:</strong> Scroll down and click on the “Invite your friends to like this page” link in the “Community” section on the right side.</li>
@@ -25,23 +31,29 @@
 						</ul>						
 					</li>
 					<li class="step">
-						<strong>Volunteer</strong><br>We need your help to staff up this campaign and continue this great momentum.
+						<strong>Volunteer</strong><br><br>We need your help to staff up this campaign and continue this great momentum.
 						<br>
 						<br>
-						<a href="mailto:ptrvalentino@gmail.com?subject=I would like to Volunteer" class="donate-btn">I can help volunteer!</a>
+						<a href="mailto:valentino4gov@gmail.com?subject=I would like to Volunteer" class="donate-btn">I can help volunteer!</a>
 					</li>
 					<li class="step">
-						<strong>Become a Donor!</strong><br>Every dollar counts, and we are grateful for any support you can provide. This campaign is about bringing people together to bring California back to it's Constitutional foundation. We’re going to need every resource to spread that message across California. 
+						<strong>Share Your Voice</strong><br><br>Peter's campaign goal: California will again adhere to our State and Federal Constitutions and that we will return to living in accordance with their protections.
+					</li>
+					<li class="step">
+						<strong>Become a Donor!</strong>
+						<br>
+						<br>
+						Every dollar counts, and we are grateful for any support you can provide. This campaign is about bringing people together to bring California back to it's Constitutional foundation. We’re going to need every resource to spread that message across California. 
 							<br>
 							<br>
 							<h4>Donate with PayPal</h4>
 
-						<div class="cards col s12 m2">
+						<div class="cards col s12 m6 l2">
 							
 							<form class="card donation" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 
 							    <!-- Identify your business so that you can collect the payments. -->
-							    <input type="hidden" name="business" value="ptrvalentino@gmail.com">
+							    <input type="hidden" name="business" value="valentino4gov@gmail.com">
 
 							    <!-- Specify a Donate button. -->
 							    <input type="hidden" name="cmd" value="_donations">
@@ -59,11 +71,11 @@
 							    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
 							</form>
 						</div>
-						<div class="cards col s12 m2">
+						<div class="cards col s12 m6 l2">
 							<form class="card donation" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 
 							    <!-- Identify your business so that you can collect the payments. -->
-							    <input type="hidden" name="business" value="ptrvalentino@gmail.com">
+							    <input type="hidden" name="business" value="valentino4gov@gmail.com">
 
 							    <!-- Specify a Donate button. -->
 							    <input type="hidden" name="cmd" value="_donations">
@@ -81,11 +93,11 @@
 							    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
 							</form>
 						</div>
-						<div class="cards col s12 m2">
+						<div class="cards col s12 m6 l2">
 							<form class="card donation" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 
 							    <!-- Identify your business so that you can collect the payments. -->
-							    <input type="hidden" name="business" value="ptrvalentino@gmail.com">
+							    <input type="hidden" name="business" value="valentino4gov@gmail.com">
 
 							    <!-- Specify a Donate button. -->
 							    <input type="hidden" name="cmd" value="_donations">
@@ -103,11 +115,11 @@
 							    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
 							</form>	
 							</div>
-						<div class="cards col s12 m2">
+						<div class="cards col s12 m6 l2">
 							<form class="card donation" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 
 							    <!-- Identify your business so that you can collect the payments. -->
-							    <input type="hidden" name="business" value="ptrvalentino@gmail.com">
+							    <input type="hidden" name="business" value="valentino4gov@gmail.com">
 
 							    <!-- Specify a Donate button. -->
 							    <input type="hidden" name="cmd" value="_donations">
@@ -125,11 +137,11 @@
 							    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
 							</form>	
 						</div>
-						<div class="cards col s12 m2">
+						<div class="cards col s12 m6 l2">
 							<form class="card donation" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 
 							    <!-- Identify your business so that you can collect the payments. -->
-							    <input type="hidden" name="business" value="ptrvalentino@gmail.com">
+							    <input type="hidden" name="business" value="valentino4gov@gmail.com">
 
 							    <!-- Specify a Donate button. -->
 							    <input type="hidden" name="cmd" value="_donations">
@@ -147,11 +159,11 @@
 							    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
 							</form>	
 						</div>
-						<div class="cards col s12 m2">	
+						<div class="cards col s12 m6 l2">	
 							<form class="card donation" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 
 							    <!-- Identify your business so that you can collect the payments. -->
-							    <input type="hidden" name="business" value="ptrvalentino@gmail.com">
+							    <input type="hidden" name="business" value="valentino4gov@gmail.com">
 
 							    <!-- Specify a Donate button. -->
 							    <input type="hidden" name="cmd" value="_donations">
@@ -169,9 +181,6 @@
 							    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
 							</form>	
 						</div>
-					</li>
-					<li class="step">
-						<strong>Share Your Voice</strong><br>Peter's campaign goal: California will again adhere to our State and Federal Constitutions and that we will return to living in accordance with their protections.
 					</li>
 				</ol>
 			</div>

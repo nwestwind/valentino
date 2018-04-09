@@ -1,6 +1,36 @@
 .cards {
 	transition: all 250ms ease;
-
+	margin: 0;
+	padding: 0;
+	.card {		
+		list-style: none;		
+		position: relative;
+		text-shadow: 0 1px 1px rgba($black, 1);
+		#home & {
+			.paypal-btn {
+				text-shadow: 0 1px 1px rgba($black, 1);
+				background-color: $green;
+				width: 100%;
+				height: 100%;
+				left: 0;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				cursor: pointer;
+				font-size: 100%;
+				position: absolute;
+				display: block;
+				vertical-align: middle;
+				border: 0  none transparent;
+				color: currentColor;
+				transition: all 250ms ease;
+				
+				&:hover {
+					background-color: $dark-blue;
+				}
+			}
+		}
+	}
 	.donation {		
 		background-color: $blue;
 		color: $white;
@@ -26,7 +56,7 @@
 			position: absolute;
 			display: block;
 			vertical-align: middle;
-			background-color: transparent !important;			
+			background-color: transparent;			
 			border: 0  none transparent;
 			color: currentColor;
 			@include set-font-size(14px, 1);

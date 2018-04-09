@@ -61,7 +61,7 @@
 					<a href="https://valentino4gov.org/"><img src="https://valentino4gov.org/img/valentino-logo.svg" alt="Peter Valentino for California Governor"></a>
 					<div class="social">
 						<a href="https://www.facebook.com/groups/1138316679638853/" target="_blank" id="facebook">Facebook</a>
-						<a href="https://www.youtube.com/channel/UCUok8kVv_fDXvV1B-d6oVAA" target="_blank" id="youtube">YouTube</a>
+						<a href="https://www.youtube.com/user/papamunditruth/" target="_blank" id="youtube">YouTube</a>
 					</div>
 					<div class="footer-links">
 						<a href="about.php" class="">Meet Peter</a> | <a href="issues.php" class="">Issues</a> | <a href="contact.php" class="">Contact</a> | 
@@ -75,5 +75,15 @@
 		</footer>
 	</div>
 	<script src="js/global-scripts-tail.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116842385-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-116842385-1');
+	</script>
+
 </body>
 </html>

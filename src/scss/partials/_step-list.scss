@@ -1,10 +1,31 @@
 .step-list {
+	margin: 0;
+  	padding: 0;
+  	list-style-type: none;
 	@include clearfix();
+
 	.step {
-		@include clearfix();
-		padding: 0 0 1em 0;
+		counter-increment: step-counter;
+		@include clearfix(); 
+		@include padding-leader(2);
+		@include padding-trailer(1);
+		@include trailer(1);
 		& + .step {
-			@include leader(2);
+			border-top: 1px solid rgba($black, .125);
+		}
+		&::before {
+			content: counter(step-counter);
+			margin-right: 5px;
+			font-size: 120%;
+			background-color: $blue;
+			color: white;
+			font-weight: bold;
+			padding: .25em .5em;
+			border-radius: 3px;
+			text-shadow: 0 1px 1px rgba($black, 1);
+			box-shadow: 0 4px 5px -2px rgba($black, .25);
 		}
 	}
 }
+ 
+ 

@@ -10,6 +10,7 @@
   position: relative;
   text-decoration: none;
   transition: all 250ms ease;
+  text-shadow: 0 1px 1px rgba($black, 1);
   & + .btn {
     margin-top: 1em;
     margin-left: 0;

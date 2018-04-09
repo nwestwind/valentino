@@ -7,22 +7,29 @@ header {
   z-index: 1010; 
   width: 100%;
   max-width: 1440px; 
+  padding: 0 0 1em 0;
   box-shadow: 0 0 0 rgba($white, 0);
   display: block;
   @include clearfix();
-	@media screen and (min-width: $screen-md) {
+  text-align: center;
+  @media screen and (min-width: $screen-sm) {
+    padding: 0;
+  }
+  @media screen and (min-width: $screen-md) {
     background: $white;
-	}
+  }
   // for vertical and horizontal centering
   .inner-container {
     margin: auto;
-    width: 100%; 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    width: 100%;     
+    @media screen and (min-width: $screen-sm) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      align-content: center;
+      flex-direction: row;
+      flex-wrap: nowrap;
+    }
   }
   &.open {}
   &.open,
@@ -41,10 +48,17 @@ header {
       }
     }
 	}
-  #logo {  
-    flex-grow: 1;
-    flex-basis: auto;
+  #logo {
     max-width: 105px;
+    display: block;
+    @media screen and (max-width: $screen-sm - 1) {
+      margin: 0 auto 1em auto;
+    }
+
+    @media screen and (min-width: $screen-sm) {
+      flex-grow: 1;
+      flex-basis: auto;
+    }    
     > img {
       height: 100px;
       display: block;

@@ -7,6 +7,11 @@
 		position: sticky;
 		top: 80px;
 	}
+	#home & {
+		@media (min-width: $screen-sm) {
+			position: static;
+		}
+	}
 	.heading {
 		border-bottom: 1px solid $dark-blue;
 	}

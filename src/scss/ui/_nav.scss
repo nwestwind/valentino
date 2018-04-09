@@ -1,11 +1,12 @@
 nav {  
    	// margin: auto;
-    order: 3;
+    order: 3;    
 	a {
 		color: $black;
-		padding: .35em 1em; 
+		padding: .25em 1em; 
 		font-weight: $base-font-weight;
 		transition: all 250ms cubic-bezier(1, 1, 0, 1);
+		border-radius: 10px;
 		& + a {
 			margin-left: 0;
 		}

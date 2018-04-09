@@ -1,7 +1,6 @@
 .hero { 
   
   min-height: 215px;
-  background-color: $blue;
   text-align: center;
   color: $white;
   padding: 0;
@@ -11,7 +10,9 @@
   align-items: stretch;
   flex-direction: row;
   flex-wrap: nowrap;
-  // for vertical and horizontal center
+  background-color: $dark-blue;
+  background-size: cover;  
+  //background: $blue url(../img/page-banner.jpg) no-repeat 50% 50%;
   .inner-container {
     margin: auto;
   }
@@ -20,7 +21,8 @@
     margin: auto;
   }
   &.about {
-    background-color: $dark-blue;
+    //color: $black;
+    //background: $blue url(../img/page-banner3.jpg) no-repeat 50% 50%;
   }
   &.contact {    
     background-color: $dark-blue;
@@ -28,8 +30,8 @@
   &.media {
     background-color: $dark-blue;
   }
-  &.issues {
-    background-color: $dark-blue;
+  &.issues {    
+    //background: $blue url(../img/page-banner2.jpg) no-repeat 50% 50%;
   }
   &.donate {
     background-color: $dark-blue;
@@ -37,7 +39,7 @@
   &.homepage {
     min-height: 330px;
     background: url(../img/banner.jpg) no-repeat left top;
-    background-size: cover; 
+    background-size: cover;  
 
     @media (min-width: $screen-sm) {
       min-height: 315px;  
